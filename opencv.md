@@ -8,14 +8,16 @@
 
 ![](./img/opencv_2.png)
 
-1. 安装OpenCV
+1. 安装OpenCV  
+
 （1）增大可用内存空间
 ```
 sudo raspi-config
 ```
 ![](./img/opencv_5.png)
 ![](./img/opencv_6.png)
-然后重启树莓派。
+然后重启树莓派。  
+
 （2）安装CMake、图像和视频库
 输入以下命令：
 ```
@@ -203,7 +205,7 @@ pi@raspberrypi:~/test $ sudo python3 test.py
 ![](./img/opencv_15.png)
 
 
-[用树莓派实现实时的人脸检测]((https://shumeipai.nxez.com/2018/03/09/real-time-face-recognition-an-end-to-end-project-with-raspberry-pi.html),跟着这个就行 ,很详细.
+[用树莓派实现实时的人脸检测](https://shumeipai.nxez.com/2018/03/09/real-time-face-recognition-an-end-to-end-project-with-raspberry-pi.html),跟着这个就行 ,很详细.
 
 ![](./img/opencv_16.jpg)
 ![](./img/opencv_17.jpg)
