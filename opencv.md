@@ -1,3 +1,5 @@
+# 树莓派4B 安装opencv 及实时人脸检测 指导-- raspberry pi OS  version : 2021/10/30 , Based on Debian version 11 (bullseye) 
+
 
 ### 树莓派配置OpenCV教程以及遇到的问题
 
@@ -211,3 +213,5 @@ pi@raspberrypi:~/test $ sudo python3 test.py
 > [树莓派配置OpenCV教程](https://blog.csdn.net/weixin_43905712/article/details/112131182)  
 > [Python中的PYTHONPATH环境变量、手动添加import导入搜索路径](https://blog.csdn.net/DXCyber409/article/details/81029140?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1.no_search_link)  
 > [linux 终端启动图形化程序界面时报错：No protocol specified](https://www.cnblogs.com/dorothychai/archive/2013/04/10/3011571.html)
+
+

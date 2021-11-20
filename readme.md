@@ -1,3 +1,6 @@
+# 树莓派4B 入门指导-- raspberry pi OS  version : 2021/10/30 , Based on Debian version 11 (bullseye) 
+
+
 ### 1. 烧录
 安装`Raspberry Pi ` 系统，参考[官网](https://www.raspberrypi.com/software/)下载, 建议下载离线版本，这样使用迅雷等软件快速下载，并且多次刻录时候非常节省时间。
 
@@ -504,5 +507,5 @@ display_rotate=0
 > [树莓派小白入门100讲](https://www.zhihu.com/column/c_1185191383811481600)
 
 
-
+> [](./)
 
