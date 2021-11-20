@@ -358,6 +358,9 @@ INFO: Initialized TensorFlow Lite runtime.
 
 ### Docker安装
 
+[Install Docker Engine on Debian](https://docs.docker.com/engine/install/debian/)
+
+
 ### 6. 摄像头
 
 用`vcgencmd get_camera`监测 
