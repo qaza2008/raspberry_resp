@@ -203,6 +203,9 @@ pi@raspberrypi:~/test $ sudo python3 test.py
 
 [用树莓派实现实时的人脸检测]((https://shumeipai.nxez.com/2018/03/09/real-time-face-recognition-an-end-to-end-project-with-raspberry-pi.html),跟着这个就行 ,很详细.
 
+![](./img/opencv_16.jpg)
+![](./img/opencv_17.jpg)
+
 
 > [清华大学开源软件镜像站](https://mirrors.tuna.tsinghua.edu.cn/help/raspbian/)  
 > [树莓派配置OpenCV教程](https://blog.csdn.net/weixin_43905712/article/details/112131182)  
