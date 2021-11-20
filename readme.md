@@ -8,7 +8,7 @@
 ![5](./img/raspos_5.PNG) 
   
 ### 2. ttl
-打开/boot/config.txt文件，找到如下配置语句使能串口，如果没有，可添加在文件最后面。
+打开`/boot/config.txt`文件，找到如下配置语句使能串口，如果没有，可添加在文件最后面。
 ```
 enable_uart=1
 
@@ -488,41 +488,21 @@ $ raspistill -ifx pastel -hf -vf -o test.jpg
 
 
 ### TFT(tft)显示屏
-
-#[1.14inch LCD Module](https://www.waveshare.net/wiki/1.14inch_LCD_Module)
-
+打开`/boot/config.txt`文件，找到如下配置语句,
+```
+# 打开tft1.14ips显示屏（spi协议）
+hdmi_force_hotplug=1
+hdmi_cvt=576 324 60 1 0 0 0
+hdmi_group=2
+hdmi_mode=89
+display_rotate=0
+```
+由于这款显示屏控制芯片： ST7789 ,参考教程
+[1.14inch LCD Module](https://www.waveshare.net/wiki/1.14inch_LCD_Module)
+配置后,接通usb鼠标就能在上面操作,适用于没有显示器的状态,并不是很方便操作.
 
 > [树莓派小白入门100讲](https://www.zhihu.com/column/c_1185191383811481600)
 
 
-### 创建Python项目
-
-````
-
-# 可选，克隆我的github地址，包含所有的安装文件和训练模型
-$ git clone https://github.com/whgreate/pi4b_tensorflow_lite && cd pi4b_tensorflow_lite
-
-# 备用下载链接 git clone https://gitee.com/whgreate/pi4b_tensorflow_lite.git
-
-
-# 安装tensorflow lite
-$ pip install tflite_runtime-1.14.0-cp37-cp37m-linux_armv7l.whl 
-
-Looking in indexes: https://pypi.org/simple, https://www.piwheels.org/simple
-Processing ./tflite_runtime-1.14.0-cp37-cp37m-linux_armv7l.whl
-Installing collected packages: tflite-runtime
-Successfully installed tflite-runtime-1.14.0
-
-# numpy pillow库需要的一些依赖
-$ sudo apt-get install libatlas-base-dev
-$ sudo apt-get install libjpeg-dev
-
-# 安装 numpy pillow
-$ pip install -r requirements.txt
-
-# 备用
-#  pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple
-
-````
 
 
